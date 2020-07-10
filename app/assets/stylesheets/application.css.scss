@@ -48,7 +48,16 @@
     opacity: 0.75;
   }
 }
-
+// Hamburger menu styling 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #2948ff;
+  }
+}
 // Typography styles
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
