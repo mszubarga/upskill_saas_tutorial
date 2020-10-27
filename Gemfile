@@ -1,22 +1,22 @@
 source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.0.0'
+gem 'rails'
 # Use Puma as the app server
-gem 'puma', '3.4.0'
+gem 'puma'
 # Use SCSS for stylesheets
-gem 'sass-rails', '5.0.6'
+gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '3.0.0'
+gem 'uglifier'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '4.2.1'
+gem 'coffee-rails'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 # Use jquery as the JavaScript library
-gem 'jquery-rails', '4.1.1'
+gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '5.0.0'
+gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '2.5.0'
+gem 'jbuilder'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '3.0'
 # Use ActiveModel has_secure_password
@@ -25,25 +25,25 @@ gem 'jbuilder', '2.5.0'
 # gem 'capistrano-rails', group: :development
 
 #Use Bootstrap library for front-end UI and layout
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass'
 
 # Use Font Awesome sass gem for adding icons
-gem 'font-awesome-sass', '4.6.2'
+gem 'font-awesome-sass'
 
 #Use hirb for better database table display in console
-gem 'hirb', '0.7.3'
+gem 'hirb'
 
 # Use devise for user authentication
-gem 'devise', '4.2.0'
+gem 'devise'
 
 # Use Stripe for payment processing
-gem 'stripe', '1.48.0'
+gem 'stripe'
 
 # Use Figaro for ENV variables
-gem 'figaro', '1.1.1'
+gem 'figaro'
 
 # Used paperclip for image upload
-gem 'paperclip', '4.3.6'
+gem 'paperclip'
 
 
 group :development, :test do
